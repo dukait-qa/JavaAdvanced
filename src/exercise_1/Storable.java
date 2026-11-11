@@ -1,3 +1,5 @@
+package exercise_1;
+
 public interface Storable {
     void read();
     void write();

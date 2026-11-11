@@ -1,4 +1,6 @@
-public class Product {
+package exercise_1;
+
+public abstract class Product {
     private String brand;
     private String model;
     private double price;
@@ -28,8 +30,12 @@ public class Product {
         this.price = price;
     }
 
+    public abstract double countPrice();
+
     @Override
     public String toString(){
         return "Brand: " + brand +" " + "Model: "  + model + " " + "Price: " + price + "$";
     }
+
+    public abstract int checkStock();
 }

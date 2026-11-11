@@ -1,3 +1,5 @@
+package exercise_1;
+
 public class Monitor extends Product{
     double diagonal;
 
@@ -5,6 +7,12 @@ public class Monitor extends Product{
         super(brand, model, price);
         this.diagonal = diagonal;
     }
+
+    @Override
+    public double countPrice() {
+        return 0;
+    }
+
     @Override
     public String toString() {
         return super.toString() + " diagonal = " + diagonal;

@@ -1,0 +1,10 @@
+package exercise_8.factory;
+
+public abstract class User {
+
+    public String username;
+
+    public User(String username) {
+        this.username = username;
+    }
+}

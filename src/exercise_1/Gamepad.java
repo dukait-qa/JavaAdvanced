@@ -1,9 +1,17 @@
+package exercise_1;
+
 public class Gamepad  extends Product implements Storable{
     boolean wireless;
     public Gamepad(String brand, String model, int price, boolean wireless) {
         super(brand, model, price);
         this.wireless = wireless;
     }
+
+    @Override
+    public double countPrice() {
+        return 0;
+    }
+
     @Override
     public String toString() {
         return super.toString() + " wireless = " + wireless;

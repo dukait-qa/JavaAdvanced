@@ -1,3 +1,5 @@
+package exercise_4;
+
 public abstract class Product {
 
     public int type;
